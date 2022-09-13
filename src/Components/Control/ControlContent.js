@@ -61,6 +61,18 @@ function ControlContent() {
       <div className={cx("time")}>
         <Timer />
       </div>
+
+      {/* Credit */}
+      <div className={cx("credit")}>
+        <div className={cx("credit__container")}>
+          <div className={cx("credit__text")}>
+            🔱 This website was made by Pham Quang Trinh 🔱
+          </div>
+          <div className={cx("credit__mail")}>
+            💌 Email: quangtrpham002@gmail.com
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
