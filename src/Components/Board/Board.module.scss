@@ -1,0 +1,68 @@
+.board {
+    display: flex;
+    margin: 10px;
+    padding: 6px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex: 3
+}
+
+.invisibleBoard{
+    display: flex;
+    margin: 10px;
+    padding: 6px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex: 3
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cell {
+    border: 1px solid black;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+
+    &:hover{
+        background-color: #ccc;
+    }
+}
+
+
+
+.playedO {
+    background-image: url(../../Assets/Images/Opng.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+}
+
+.playedX {
+    background-image: url(../../Assets/Images/Xpng.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+}
+
+.won {
+    background-color: yellow;
+}
+
+.red{
+    background-color: red;
+}
+
+.showX {
+    background-image: url(../../Assets/Images/Xpng.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+}
