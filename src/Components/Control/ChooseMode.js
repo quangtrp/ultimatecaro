@@ -1,6 +1,7 @@
 import classNames from "classnames/bind";
 import { useContext } from "react";
 import { AppContext } from "../Context/AppProvider";
+import useViewport from "../hooks/useViewport";
 import styles from "./Control.module.scss";
 
 const cx = classNames.bind(styles);
@@ -13,7 +14,12 @@ function ChooseMode() {
     setAi,
     setCplayer,
     setShowImage,
+    setOnlyBoard,
+    setOnlyControl,
   } = useContext(AppContext);
+
+  const viewPort = useViewport();
+  const tabletAndMobile = viewPort.width <= 768;
 
   const handleClick = () => {
     setShowControl(true);
@@ -22,6 +28,11 @@ function ChooseMode() {
     setAi(false);
     setCplayer(0);
     setShowImage(false);
+
+    if (tabletAndMobile) {
+      setOnlyBoard(true);
+      setOnlyControl(false);
+    }
   };
 
   const handleClickAi = () => {
@@ -31,6 +42,11 @@ function ChooseMode() {
     setAi(true);
     setCplayer(0);
     setShowImage(false);
+
+    if (tabletAndMobile) {
+      setOnlyBoard(true);
+      setOnlyControl(false);
+    }
   };
 
   return (

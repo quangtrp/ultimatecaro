@@ -11,6 +11,8 @@ function AppProvider({ children }) {
   const [ai, setAi] = useState(false);
   const [time, setTime] = useState(0);
   const [timerOn, setTimerOn] = useState(true);
+  const [onlyBoard, setOnlyBoard] = useState(false);
+  const [onlyControl, setOnlyControl] = useState(true);
 
   const [stopTime, setStopTime] = useState(0);
 
@@ -39,6 +41,10 @@ function AppProvider({ children }) {
         setStopTime,
         cplayer,
         setCplayer,
+        onlyBoard,
+        setOnlyBoard,
+        onlyControl,
+        setOnlyControl,
       }}
     >
       {children}

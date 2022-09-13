@@ -1,10 +1,16 @@
+@import "../GlobalStyles/responsive.scss";
+
 .timer__container {
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .time__display {
-    font-size: 30px;
+  font-size: 30px;
+
+  @include tabletAndMobile {
+    font-size: 20px;
+  }
 }
