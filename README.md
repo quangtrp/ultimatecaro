@@ -21,7 +21,7 @@ This mode is suitable for 2 players with 1 device. The first player will represe
 
 ### PVSC (Player Vs Computer)
 
-This mode is suitable for playing alone. You will represent O and you will face the computer representing X. You will be the first to tick. This mode can also help you train your thinking ability and the ability to predict the computer's moves, so you can have your own unique gaming strategies.
+This mode is suitable for playing alone. You will represent O and you will face the computer representing X. You will be the first to mark. This mode can also help you train your thinking ability and the ability to predict the computer's moves, so you can have your own unique gaming strategies.
 
 ## Technologies
 
