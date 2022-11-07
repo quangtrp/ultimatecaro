@@ -2,6 +2,10 @@
 
 ##### LINK DEMO: https://ultimate-caro.surge.sh/
 
+## Introduction
+
+This is a tic-tac-toe gaming website and it's also my third personal project. I worked on this project for 2 weeks (September 5 to September 13). I designed the entire interface layout of this website using `ReactJS` and `SCSS`. To make this website more diverse, I have researched and added a fighting game mode against the computer. Also, I've built this website to be responsive so we can access it by phone or tablet.
+
 ## Rules to play
 
 Whoever gets 5 consecutive squares in the same row or diagonal wins
