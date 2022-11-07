@@ -1,6 +1,6 @@
 # Ultimate Caro
 
-##### LINK DEMO: https://ultimate-caro.surge.sh/
+##### WEBSITE: https://ultimate-caro.surge.sh/
 
 ## Introduction
 
